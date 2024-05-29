@@ -219,6 +219,19 @@ padding: 120px 0 120px;
         
 }
 
+.icon-features{
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background: #f4f4fd;
+}
+
+
+
+
+
+
 .our-team{  
     padding: 120px 0;
     background: #f4f4fd;
@@ -270,6 +283,48 @@ margin: 0 auto;
 .team-text {
         text-align: center;
 }
+
+.our-team-icon{
+display: flex;
+    gap: 24px;
+    align-items: center;
+        justify-content: center;
+        flex-direction: row;
+      margin-bottom: 8px;
+      
+        
+}
+
+.link-icon{
+width: 40px;
+height: 40px;
+display: flex;
+
+}
+
+.icon{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background-color: #4d5ae5;
+position: relative;
+display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.team-icon{
+fill:#fff;
+
+
+}
+
+.team-icon-wrap{
+
+}
+
+
 
 .our-portfolio {
    padding-top: 120px;
@@ -326,12 +381,18 @@ margin: 0 auto;
         padding-top: 100px;
         padding-bottom: 100px;
         background: #2e2f42;
+      
 }
 
 .footer-container{
-
+display: flex;
+gap: 120px;
+align-items: baseline;
 }
 
+.f-container{
+    margin-right: 120px;
+}
 .footer-logo {
 font-weight: 700;
     font-size: 18px;
@@ -342,6 +403,50 @@ font-weight: 700;
     font-family: "Raleway", sans-serif;
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.container-footer{
+    width: 208px;
+     height: 80px;
+}
+
+.footer-text-two{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
+}
+
+.footer-list{
+display: flex;
+gap: 16px;
+list-style: none;
+}
+
+.footer-item{
+width: 40px;
+height: 40px;
+transition: background-color(250ms) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-item-icon{
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+color:#f4f4fd;
+background-color:#4d5ae5;
+width: 100%;
+height: 100%;
+}
+
+.footer-item-icon:focus{background-color: color #31d0aa;}
+.footer-item-icon:hover{background-color: color #31d0aa;}
+
+.footer-icon{
+fill: #fff;
 }
 
 .footer-logo-web {
