@@ -346,11 +346,14 @@ position: relative;
 display: flex;
     justify-content: center;
     align-items: center;
- 
 }
 
+.icon:hover  {background-color: #404bbf;
+}
+.icon:focus{background-color: #404bbf;}
+
 .team-icon{
-fill:#fff;
+fill:#f4f4fd
 
 
 }
