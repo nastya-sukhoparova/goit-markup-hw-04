@@ -87,7 +87,7 @@ margin-right: auto;
 }
 
 .current{
-color: #404bbf;
+
 position: relative;
 }
 .current::after{
@@ -103,6 +103,7 @@ content: '';
 
 
 .nav-link{
+    color: #404bbf;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -341,6 +342,7 @@ position: relative;
 display: flex;
     justify-content: center;
     align-items: center;
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon:hover  {background-color: #404bbf;
@@ -513,11 +515,11 @@ height: 100%;
 
 .footer-item-icon:focus{
     background-color: color #31d0aa;
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-item-icon:hover{
     background-color: color #31d0aa;
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon{
